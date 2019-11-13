@@ -1,7 +1,7 @@
 const body = document.querySelector("body");
 const timeContainer = document.querySelector(".js-area"),
-			timeCalendar = timeContainer.querySelector(".js-calendar"),
-			timeText = timeContainer.querySelector(".js-time");
+    timeCalendar = timeContainer.querySelector(".js-calendar"),
+    timeText = timeContainer.querySelector(".js-time");
 
 const IMG_NUMBER = 3;
 
@@ -20,8 +20,7 @@ function genRandom(){
 
 
 function getTime(){
-	const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
-  "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+	const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 	const date = new Date();
 	const month = date.getMonth();
 	const day = date.getDate();
